@@ -1,0 +1,17 @@
+{% extends 'whatsappmessageanalyzer/base.html' %}
+{% block content %}
+<div>
+    <table style="border:1px solid black;margin:0px 200px 0px 200px;">
+        <tr style="border:2px solid black">
+            <th style="width:50%;text-align:center" >Contact Name</th>
+            <th style="width:50%;text-align:center" >Number of Messages</th>
+        </tr>
+        {% for name,number in data.items %}
+        <tr style="border:1px solid black">
+            <td style="width:50%;text-align:center" >{{name}}</td>
+            <td style="width:50%;text-align:center" >{{number}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
