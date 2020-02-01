@@ -10,12 +10,12 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates/')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ya&dvxp9e4*q3-adyf_*tzy45dfgvi!d%n2cr#2o9od@lo+t-c'
+SECRET_KEY = 'Add Your Secret Key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://whatsappmessageanalyzer.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
